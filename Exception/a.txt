@@ -1,0 +1,4 @@
+if your class has a package then go to the folder containing the class. e.g if package is package test.abc, then go to folder before test and then do java -cp . test.abc.CLASSNAME (without .class). If there's no package then go to folder containing class and say java -cp . CLASSNAME – Optional Jul 1 '13 at 16:05 
+Either a class was not deployed to your runtime (for example missing jar), or the class is not visible in a given class loader, check this this tool that helps troubleshooting these problems: jhades.org – Angular University Dec 6 '13 at 12:05
+1
+I also run into this sometimes. This exception clearly violates the rule of stating all necessary context in an exception message. It should mention where it tried to look for the thing, what is on your classpath. Please make better exception messages. Don't make us hunt for information which could help solve the problem. – masterxilo Nov 25 '18 at 14:12
