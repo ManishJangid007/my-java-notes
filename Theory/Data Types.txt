@@ -1,0 +1,62 @@
+Type Of Primitive Data Type in Java:-
+
+1. Byte - The byte data type is an 8-bit signed two's complement integer. It has a minimum value of -128 and a maximum value of 127 (inclusive).
+
+2. Short - The short data type is a 16-bit signed two's complement integer. It has a minimum value of -32,768 and a maximum value of 32,767 (inclusive).
+        the same guidelines apply: you can use a short to save memory in large arrays, in situations where the memory savings actually matters.
+
+3. Int - By default, the int data type is a 32-bit signed two's complement integer, which has a minimum value of -231 and a maximum value of 231-1. 
+        In Java SE 8 and later, you can use the int data type to represent an unsigned 32-bit integer, which has a minimum value of 0 and a maximum value of 232-1. 
+        Use the Integer class to use int data type as an unsigned integer.                     
+
+4. Long - The long data type is a 64-bit two's complement integer. The signed long has a minimum value of -263 and a maximum value of 263-1. In Java SE 8 and later, 
+        you can use the long data type to represent an unsigned 64-bit long, which has a minimum value of 0 and a maximum value of 264-1.               
+
+5. Float - a float is a data type composed of a number that is not an integer, because it includes a fraction represented in decimal format.
+        Some point out that the float data type is used in computer programming when more precision is needed than what integers can provide.(32 bit)
+
+6. Double - The double data type is a double-precision 64-bit IEEE 754 floating point. Its range of values is beyond the scope of this discussion, 
+        but is specified in the Floating-Point Types, Formats, and Values section of the Java Language Specification.
+        For decimal values, this data type is generally the default choice. As mentioned above, this data type should never be used for precise values, such as currency.
+
+7. Boolean - The boolean data type has only two possible values: true and false. Use this data type for simple flags that track true/false conditions. 
+        This data type represents one bit of information, but its "size" isn't something that's precisely defined.
+
+8. char - The char data type is a single 16-bit Unicode character. It has a minimum value of '\u0000' (or 0) and a maximum value of '\uffff' (or 65,535 inclusive).
+
+
+Type Of Non-Primitive Data Type in Java:-
+
+9. String - In Java, string is basically an object that represents sequence of char values. 
+        An array of characters works same as Java string. 
+        For example: char[] ch={'j','a','v','a','t','p','o','i','n','t'}; 
+                        String s=new String(ch);
+
+                        or 
+        
+        A Java string is a sequence of characters that exist as an object of the class java.
+        Java strings are created and manipulated through the string class. Once created, a string is immutable 
+        -- its value cannot be changed.
+
+10. Array - An array is a container object that holds a fixed number of values of a single type. 
+        The length of an array is established when the array is created. After creation, its length is fixed.
+
+                        or
+        
+        Array is a collection of homogenous Data Types stored in continous memory location.
+
+
+:- Default Values Of DataTypes
+
+
+Data Type	                    Default Value (for fields)
+
+byte	                                0
+short	                                0
+int	                                0
+long                                    0L
+float	                                0.0f
+double	                                0.0d
+char	                                '\u0000' 'k'
+String (or any object)  	        null 'kittu'
+boolean	                                false (True/False)

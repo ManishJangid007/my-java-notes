@@ -1,0 +1,33 @@
+Q. What is Java
+Solution : Java is a general-purpose, class-based, object-oriented 
+            programming language designed for having lesser implementation dependencies. 
+            It is a computing platform for application development.
+
+UseCases : Web development
+            Desktop development
+            Mobile development
+            Games development
+            Distributed Processing 
+        
+Q. Features of Java 
+Solution : Robust
+            Secure
+            Multi-Threading
+            Garbage Collector
+            Object oriented
+            Platform Independent
+            Strong Type-checking
+            Compile & interpret
+
+Q. How a Java Program is Run
+Solution : Step 1. Java Program 
+            Step 2. Java Compiler
+            Step 3. Bytecode
+            Step 4. Windows, Linux, MacOS
+
+Q. Anatomy of Java 
+Solution : JDK - Java development kit
+                    JRE - Java Runtime Environment
+                            JVM - Java Virtual Machine
+                                Class Libraries, Other Libraries
+

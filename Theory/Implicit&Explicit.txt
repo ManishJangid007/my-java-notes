@@ -1,0 +1,28 @@
+Implicit TypeCasting :- In implicit typecasting, the conversion involves a smaller data type to the larger type size. 
+                For example, the byte datatype implicitly typecast into short, char, int, long, float, and double. 
+                The process of converting the lower data type to that of a higher data type is referred to as Widening
+
+        Example =   int a = 100;
+		            System.out.println("Int : " + a);
+
+		            long b = a;
+		            System.out.println("Long : " + b);
+
+                    float c = b;
+                    System.out.println("Float : " + c);
+
+Explicit TypeCasting :- Converting a higher data type into a lower one is called narrowing type casting. 
+                It is also known as explicit conversion or casting up. It is done manually by the programmer. 
+                If we do not perform casting then the compiler reports a compile-time error.
+
+        Example =   double a = 50.50;
+                    System.out.println("Double : " + a);
+
+                    float f = (float) a;
+                    System.out.println("Float : " + f);
+
+                    long b = (long) a;
+                    System.out.println("Long : " + b);
+
+                    int c = (int) b;
+                    System.out.println("Int : " + c);
